@@ -2,6 +2,25 @@
   float: left;
   position: relative;
 }
+#slide{
+  position: fixed;
+  margin: 1%;
+}
+/* .main{
+  display: none;
+} */
 body {
   background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.dropdown-item {
+font-family: 'Indie Flower', cursive;
+}
+.nav-link {
+font-family: 'Gloria Hallelujah', cursive;
+}
+#head {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.form {
+  display: none;
 }
