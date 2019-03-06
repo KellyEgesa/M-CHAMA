@@ -78,3 +78,15 @@ p {
 clear:both;
 padding-top:20px
 }
+.dropdown-item {
+font-family: 'Indie Flower', cursive;
+}
+.nav-link {
+font-family: 'Gloria Hallelujah', cursive;
+}
+#head {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.form {
+  display: none;
+}
