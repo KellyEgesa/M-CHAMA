@@ -16,7 +16,7 @@
 
 
 div.container {
-width:960px;
+width:1300px;
 height:600px;
 margin:50px auto;
 font-family:'Droid Serif',serif
@@ -74,6 +74,26 @@ margin-left:6px;
 margin-top:10px;
 margin-bottom:20px
 }
+/* .col-md-4{
+  margin: 2%;
+} */
+#basicExampleNav{
+  font-size: 24px;
+}
+/* .login{
+  background-image: https://images.pexels.com/photos/935870/pexels-photo-93587
+} */
+#loginimg{
+  width: 75%;
+  height: 925px;
+}
+#mraah{
+/* margin: 0%; */
+float: right;
+width: 25%;
+padding: 2%;
+margin-top: 10%;
+}
 p {
 clear:both;
 padding-top:20px
@@ -87,9 +107,36 @@ font-family: 'Gloria Hallelujah', cursive;
 #head {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
+.index{
+  display: none;
+}
 .form {
   display: none;
 }
 body {
-  background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  /* background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+  background-color: #BBE1FC;
+}
+#bar {
+  color: green;
+}
+#group {
+font-family: 'Indie Flower', cursive;
+}
+#chama {
+  height:5%
+  width:5%
+}
+
+.icon {
+float: right;
+font-size: 30px;
+font-family: 'Sniglet', cursive;
+margin: 1%;
+animation-duration: 3s;
+animation-delay: 1s;
+
+}
+.contact {
+  float: right;
 }
