@@ -1,69 +1,126 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="utf-8">
-    <title>M-CHAMA</title>
-  </head>
-  <body>
+<head>
+  <link rel="icon" href="img/logo.jpeg" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Gloria+Hallelujah|Indie+Flower|Roboto|Sniglet|Srisakdi|ZCOOL+QingKe+HuangYou" rel="stylesheet">
 
+  <meta charset="utf-8">
+  <title>M-CHAMA</title>
+</head>
+<body>
+  <div class="ian">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">E-CHAMA</a>
 
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Default form login -->
-  <div class="container">
-    <form class="text-center border border-light p-5">
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
 
-        <p class="h4 mb-4">Sign in</p>
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="help.html">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+        <!-- Links -->
+      </div>
+      <!-- Collapsible content -->
+    </nav>
+    <img src="https://images.pexels.com/photos/1842610/pexels-photo-1842610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" id="loginimg">
 
-        <!-- Email -->
-        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <div class="container" id="mraah">
+      <div class="login">
+            <form class="text-center border border-light p-5">
 
-        <!-- Password -->
-        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+              <p class="h4 mb-4">Sign in</p>
 
-        <div class="d-flex justify-content-around">
-            <div>
-                <!-- Remember me -->
-                <div class="custom-control custom-checkbox">
+              <!-- Email -->
+              <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+              <!-- Password -->
+              <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+              <div class="d-flex justify-content-around">
+                <div>
+                  <!-- Remember me -->
+                  <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
                     <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                  </div>
                 </div>
-            </div>
-            <div>
-                <!-- Forgot password -->
-                <a href="">Forgot password?</a>
-            </div>
-        </div>
+                <div>
+                  <!-- Forgot password -->
+                  <a href="">Forgot password?</a>
+                </div>
+              </div>
 
-        <!-- Sign in button -->
-        <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+              <!-- Sign in button -->
+              <button class="btn btn-info btn-block my-4" type="button">Sign in</button>
 
-        <!-- Register -->
-        <p>Not a member?
-            <a href="">Register</a>
-        </p>
+              <!-- Register -->
+              <p>Not a member?
+                <a href="">Register</a>
+              </p>
 
-        <!-- Social login -->
-        <p>or sign in with:</p>
+              <!-- Social login -->
+              <p>or sign in with:</p>
 
-        <a type="button" class="light-blue-text mx-2">
-            <i class="fab fa-facebook-f"></i>
-        </a>
-        <a type="button" class="light-blue-text mx-2">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a type="button" class="light-blue-text mx-2">
-            <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a type="button" class="light-blue-text mx-2">
-            <i class="fab fa-github"></i>
-        </a>
+              <a type="button" class="light-blue-text mx-2">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a type="button" class="light-blue-text mx-2">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a type="button" class="light-blue-text mx-2">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a type="button" class="light-blue-text mx-2">
+                <i class="fab fa-github"></i>
+              </a>
 
-    </form>
+            </form>
+          </div>
+    </div>
+
+    </div>
   </div>
-    <!-- Default form login -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
-    <script src="js/scripts.js" charset="utf-8"></script>
-  </body>
+  <!--Navbar-->
+
+  <!-- Default form login -->
+  <!-- Default form login -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+   <!-- JQuery -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+</body>
 </html>
